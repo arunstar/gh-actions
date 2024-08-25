@@ -1,5 +1,5 @@
 # Used to trigger self-push CI
-name: Self-hosted runner (push-caller)
+name: Self-hosted runner push-caller
 
 on:
   pull_request:
