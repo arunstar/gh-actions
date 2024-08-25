@@ -9,5 +9,3 @@ jobs:
       name: Check if setup was changed??
       steps:
         - uses: actions/checkout@v4
-          with: 
-            fetch-depth: "2"
