@@ -5,7 +5,7 @@ on:
     workflows: ["caller"]
     types: [completed]
     branches:
-      - main
+      - 'main'
 
 env:
   FORCE_COLOR: 3
