@@ -2,6 +2,7 @@ name: caller
 
 on:
   pull_request:
+    branches: ["main"]
 
 jobs:
   check-for-setup:
