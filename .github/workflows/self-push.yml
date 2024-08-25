@@ -2,10 +2,9 @@ name: Docker
 
 on:
   workflow_run:
-    workflows: ["caller"]
+    workflows: [caller]
     # branches: ["main"]
-    types:
-      - completed
+    types: [completed]
 
 env:
   FORCE_COLOR: 3
