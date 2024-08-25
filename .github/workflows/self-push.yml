@@ -3,6 +3,7 @@ name: Docker
 on:
   workflow_run:
     workflows: ["caller"]
+    branches: [main]
     types:
       - completed
 
