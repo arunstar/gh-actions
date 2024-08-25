@@ -1,5 +1,5 @@
 # Used to trigger self-push CI
-name: CI
+name: Self-hosted runner (push-caller)
 
 on:
   push:
