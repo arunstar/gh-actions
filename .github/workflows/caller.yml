@@ -1,4 +1,4 @@
-name: Self-hosted runner push-caller
+name: caller
 
 on:
   pull_request:
