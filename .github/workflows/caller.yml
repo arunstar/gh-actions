@@ -2,6 +2,7 @@ name: caller
 
 on:
   pull_request:
+    branches: ["main"]
 
 jobs:
   check-for-setup:
@@ -9,5 +10,3 @@ jobs:
       name: Check if setup was changed??
       steps:
         - uses: actions/checkout@v4
-          with: 
-            fetch-depth: "2"
